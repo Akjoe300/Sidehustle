@@ -1,0 +1,98 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* background-color: #141414; */
+  font-family: 'poppins';
+  
+}
+
+body{
+  background-color: #141414;
+  height: 100%;
+  color: white;
+  transition: 0.3s;
+
+}
+
+.about{
+  font-family: 'poppins';
+  text-transform: uppercase;
+  background: linear-gradient(to top, rgb(235, 108, 129) 0%, pink 30%, rgb(207, 62, 87) 50%, rgb(212, 27, 212));
+  text-align: center;
+  margin-top: 7px;
+  height: 50px;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+
+}
+
+.mydiv{
+  display: grid;
+  grid-template-columns: auto auto;
+  margin: 100px 0 100px 0;
+}
+
+.img1{
+  height: 400px;
+  border-radius: 20px;
+  margin-left: 30px;
+
+}
+
+.autobio{
+  margin-left: 40px;
+}
+
+.btn{
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  width: 70px;
+  height: 33px;
+  border-radius: 20px;
+  color: #fff;
+  border-color: #fff;
+  border-style: solid;
+  transition: all 0.5s ease;
+  cursor: pointer;
+  background-color: #141414;
+
+}
+
+.sp{
+  background-color: #fff;
+  width: 26px;
+  height: 26px;
+  display: block;
+  border-radius: 15px;
+  margin-left: 2px;
+  transition: all 0.5s ease;
+}
+
+.active{
+  background-color: #fff;
+  border-color: #141414;
+
+}
+
+.active .sp{
+  margin-left: 39px;
+  background-color: #141414;
+}
+
+/* .active body{
+  background-color: #fff;
+} */
+
+.bds{
+  background: #fff;
+  color: black;
+}
